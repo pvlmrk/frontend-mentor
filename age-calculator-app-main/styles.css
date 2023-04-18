@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+:root {
+    --clr-primary-purple: hsl(259, 100%, 65%);
+    --clr-primary-light-red: hsl(0, 100%, 67%);
+
+    --clr-neutral-white: hsl(0, 0%, 100%);
+    --clr-neutral-off-white: hsl(0, 0%, 94%);
+    --clr-neutral-light-grey: hsl(0, 0%, 86%);
+    --clr-neutral-smokey-grey: hsl(0, 1%, 44%);
+    --clr-neutral-off-black: hsl(0, 0%, 8%);
+
+    --fts-inputs: 32px;
+
+    --fw-400-i: 400;
+    --fs-400-i: italic;
+
+    --fw-700: 700;
+
+    --fw-800-i: 800;
+    --fs-800-i: italic;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: var(--clr-neutral-off-white);
+}
+
+.calculator {
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+    border-bottom-right-radius: 175px;
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--clr-neutral-white);
+}
+
+.inputs {
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+input {
+    width: 6rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0 20px;
+    border: 1px solid;
+    border-color: var(--clr-neutral-light-grey);
+}
+
+h2 {
+    font-weight: 800;
+    margin: 0;
+    font-size: 90px;
+    font-style: italic;
+}
+
+span {
+    color: var(--clr-primary-purple);
+    font-style: italic;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
